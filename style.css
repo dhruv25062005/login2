@@ -1,0 +1,100 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #4a90e2, #9013fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+/* Container styling */
+.container {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 40px 30px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+/* Heading styling */
+h1, h2 {
+    color: #4a4a4a;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Input styling */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 12px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #555;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #7a42f4;
+    outline: none;
+    box-shadow: 0 4px 12px rgba(122, 66, 244, 0.2);
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #7a42f4, #4a90e2);
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #4a90e2, #7a42f4);
+    box-shadow: 0 4px 15px rgba(74, 144, 226, 0.3);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Link styling */
+a {
+    color: #7a42f4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form text styling */
+p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #555;
+}
